@@ -1,0 +1,34 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.195.0/containers/javascript-node
+{
+  "name": "Node.js",
+  "build": {
+    "dockerfile": "Dockerfile",
+    // Update 'VARIANT' to pick a Node version: 16, 14, 12.
+    // Append -bullseye or -buster to pin to an OS version.
+    // Use -bullseye variants on local arm64/Apple Silicon.
+    "args": { "VARIANT": "16-bullseye" }
+  },
+
+  // Add the IDs of extensions you want installed when the container is created.
+  "extensions": [
+    "arcanis.vscode-zipfs",
+    "blanu.vscode-styled-jsx",
+    "bradlc.vscode-tailwindcss",
+    "csstools.postcss",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode",
+    "medo64.render-crlf",
+    "mikestead.dotenv",
+    "ms-vscode.js-debug",
+    "streetsidesoftware.code-spell-checker"
+  ],
+
+  // Use 'forwardPorts' to make ports inside the container available locally.
+  "forwardPorts": [3000],
+
+  // More info on non-root user: https://aka.ms/vscode-remote/containers/non-root.
+  "remoteUser": "node"
+}
