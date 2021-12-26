@@ -1,2 +1,2 @@
-# vscode-wrangler
-Cloudflare Workers Development Container for Visual Studio Code
+# vscode-node
+Node.js Development Container for Visual Studio Code
