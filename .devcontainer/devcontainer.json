@@ -24,6 +24,9 @@
     "streetsidesoftware.code-spell-checker"
   ],
 
+  // Use 'forwardPorts' to make ports inside the container available locally.
+  "forwardPorts": [8787],
+
   // Run commands after the container is created.
   // For example, using "npm install" to install husky and setup git hooks.
   "postCreateCommand": "npm install",
