@@ -13,6 +13,7 @@
   // Add the IDs of extensions you want installed when the container is created.
   "extensions": [
     "arcanis.vscode-zipfs",
+    "bungcip.better-toml",
     "dbaeumer.vscode-eslint",
     "eamodio.gitlens",
     "EditorConfig.EditorConfig",
@@ -22,6 +23,10 @@
     "ms-vscode.js-debug",
     "streetsidesoftware.code-spell-checker"
   ],
+
+  // Run commands after the container is created.
+  // For example, using "npm install" to install husky and setup git hooks.
+  "postCreateCommand": "npm install",
 
   // More info on non-root user: https://aka.ms/vscode-remote/containers/non-root.
   "remoteUser": "node"
