@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": ["source.addMissingImports", "source.fixAll"],
+  "cSpell.words": ["TSDoc"],
+  "cSpell.ignorePaths": [".git/objects", ".vscode", "package-lock.json"]
+}
