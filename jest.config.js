@@ -1,7 +1,7 @@
 module.exports = {
-  "transform": {
-    "^.+\\.(t|j)sx?$": "ts-jest"
+  transform: {
+    "^.+\\.(t|j)sx?$": "ts-jest",
   },
-  "testRegex": "/test/.*\\.test\\.ts$",
-  "collectCoverageFrom": ["src/**/*.{ts,js}"]
-}
+  testRegex: "/test/.*\\.test\\.ts$",
+  collectCoverageFrom: ["src/**/*.{ts,js}"],
+};
